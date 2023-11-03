@@ -1,0 +1,112 @@
+body{
+  background-image: linear-gradient(to right , rgba(65,105,225,0.15) , rgba(255,255,255,0.5)) , url("../image/S__161275915.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+p{
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 35px;
+}
+.about-me{
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.paper{
+  margin-top: 100px;
+  height: 2100px;
+  width: 1250px;
+  background-color: rgba(255, 165, 0, 0.9);
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+
+
+}
+.header-box{
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  height: 130px;
+  width: 300px;
+  text-align: center;
+}
+.header{
+  margin-top: 10px;
+  font-size: 80px;
+}
+.detail-grid{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  grid-row-gap: 50px;
+  column-gap: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.profile-pic{
+  width: 100%;
+  border-style: solid;
+  border-width: 8px;
+  border-radius: 15px;
+  border-color: green;
+}
+
+.detail-box{
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  height: 750px;
+}
+.header-education{
+  margin-top: 10px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.education{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.anuban-pic{
+  width: 90%;
+  margin-left: 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.anuban-text{
+  text-align: center;
+}
+
+.acsp{
+  width: 90%;
+  margin-left: 30px;
+}
+
+.tup{
+  width: 80%;
+  margin-left: 30px;
+}
+.css{
+  max-width: 240px;
+    max-height: 240px;
+    width: auto;
+    height: auto;
+}
